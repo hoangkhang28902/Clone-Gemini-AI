@@ -12,7 +12,7 @@ const userData = {message: "",file: {}};
 let typingInterval,controller;
 const chatHistory = [];
 
-const API_KEY="AIzaSyDT6cUClbBLLIkQZSUrfnIic_4OnpzW9OY";
+const API_KEY="Your API";
 const API_URL= `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
 
 
